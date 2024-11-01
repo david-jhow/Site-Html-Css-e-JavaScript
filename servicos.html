@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Servicos</title>
+    <!-- estrelas -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css"
+        integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- estrelas -->
+    <link rel="stylesheet" href="style.css">
+    <script defer src="main.js"></script>
+</head>
+
+<body>
+    <!-- Cabecalho -->
+    <header style="background-image: url(img/servicos.jpg);">
+        <!-- conteiner-->
+        <div class="conteiner">
+            <nav>
+                <a href="index.html">
+                    <img class="logo" src="img/david-logo1.png" alt="david-logo">
+                </a>
+                <ul class="menu" id="menu1">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="sobre.html">Sobre</a></li>
+                    <li><a href="Servicos.html">Servicos</a></li>
+                    <li><a href="Contato.html" class="animate-btn">Contatos</a></li>
+                    <!--menu mobile-->
+                    <li class="close-icon" onclick="closeMenu()">
+                        <i class="fa fa-times-circle"></i>
+                    </li>
+                </ul>
+                <div class="menu-icon" onclick="openMenu()">
+                    <i class="fa fa-bars" style="color: black;"></i>
+                </div>
+                <!--fim do menu mobile-->
+            </nav>
+            <section class="banner">
+                <div class="banner-text">
+                    <h1 style="color: rgb(0, 0, 0);">Servicos</h1>
+                </div>
+                <a href="contato.html" class="btn animate-btn"> Entre em contato</a>
+            </section>
+        </div>
+        <!-- fim do conteiner -->
+        <!-- servicos-->
+         <section class="servicos">
+            <div class="conteiner">
+                <div class="servicos-text">
+                    <h1>Servicos</h1>
+                    <p>Conhecemos o que podemos fazer para te ajudar</p>
+                    <!-- cards-->
+                    <div class="cards">
+                        <!--card 1-->
+                        <div class="cards-item">
+                            <img src="img/cloud.png" alt="cloud">
+                            <p class="nome-servico"><strong>Servico em Nuvem</strong></p>
+                            <p class="descricao-servico">Os serviços em nuvem permitem armazenar e gerenciar dados em servidores remotos acessíveis pela internet. Eles incluem IaaS (Infraestrutura como Serviço), PaaS (Plataforma como Serviço) e SaaS (Software como Serviço). Benefícios incluem escalabilidade, flexibilidade, economia de custos e segurança. &#128187;&#128274;
+                            </p>
+                        </div>
+                        <!--fim do card 1-->
+                        <!--card 2-->
+                        <div class="cards-item">
+                            <img src="img/digital-marketing.png" alt="digital-marketing">
+                            <p class="nome-servico"><strong>Marketing Digital</strong></p>
+                            <p class="descricao-servico">Os serviços de marketing digital permitem promover produtos e serviços usando a internet e tecnologias digitais. Eles incluem SEO (Otimização para Motores de Busca), SEM (Marketing de Busca), e SMM (Marketing em Mídias Sociais). Benefícios incluem alcance global, segmentação precisa, e medição de resultados. &#128200;&#128241;
+                            </p>
+                        </div>
+                        <!--fim do card 2-->
+                        <!--card 3-->
+                        <div class="cards-item">
+                            <img src="img/seo.png" alt="SEO">
+                            <p class="nome-servico"><strong>SEO</strong></p>
+                            <p class="descricao-servico">Os serviços de SEO (Otimização para Motores de Busca) ajudam a melhorar a visibilidade do seu site nos resultados de pesquisa. Eles incluem otimização de palavras-chave, criação de conteúdo de qualidade e construção de links. Benefícios incluem maior tráfego orgânico, melhores rankings e aumento da credibilidade online. &#128269;&#127760;</p>
+                        </div>
+                        <!--fim do card 3-->
+                        <!--card 4-->
+                        <div class="cards-item">
+                            <img src="img/virtual_store.png" alt="virtual_store">
+                            <p class="nome-servico"><strong>Criaçao de Lojas Virtuais</strong></p>
+                            <p class="descricao-servico">Os serviços de criação de lojas virtuais permitem vender produtos online através de plataformas personalizadas. Eles incluem design de interface, integração de pagamento e gerenciamento de estoque. Benefícios incluem alcance global, operação 24/7, e análise de dados de clientes para melhorar vendas e marketing. &#128722;&#127760;
+                            </p>
+                        </div>
+                        <!--fim do card 4-->
+                        <!--card 5-->
+                        <div class="cards-item">
+                            <img src="img/layer.png" alt="layer">
+                            <p class="nome-servico"><strong>Identidade Visual & Disign</strong></p>
+                            <p class="descricao-servico">Os serviços de identidade visual e design ajudam a criar uma imagem única e consistente para a sua marca. Eles incluem a criação de logotipos, paletas de cores, tipografia e outros elementos visuais. Benefícios incluem maior reconhecimento da marca, comunicação clara de valores e aumento da confiança do cliente. &#127912;&#128736;
+                            </p>
+                        </div>
+                        <!--fim do card 5-->
+                        <!--card 6-->
+                        <div class="cards-item">
+                            <img src="img/manager.png" alt="manager">
+                            <p class="nome-servico"><strong>Criaçao de Conteudo</strong></p>
+                            <p class="descricao-servico">Os serviços de criação de conteúdo ajudam a desenvolver materiais originais e engajantes para diversas plataformas. Eles incluem a produção de textos, vídeos, infográficos e outros formatos criativos. Benefícios incluem atração de público, aumento do engajamento e fortalecimento da presença online. &#128221;&#127909;
+                            </p>
+                        </div>
+                        <!--fim do card 6-->
+                    </div>
+                    <!--fim dos cards-->
+                </div>
+            </div>
+         </section>
+        <!--fim do servicos-->
+        <!-- dados-->
+         <section class="dados">
+            <div class="conteiner">
+                <!--dados-item 1-->
+                <div class="dados-item">
+                    <img src="img/cloud.png" alt="">
+                    <p>
+                        <strong>+030</strong><br>
+                        Projetos Concluidos
+                    </p>
+                </div>
+                <!--fim dos dados-item 1-->
+                <!--dados-item 2-->
+                <div class="dados-item">
+                    <img src="img/manager.png" alt="">
+                    <p>
+                        <strong>+015</strong><br>
+                        Clientes Satisfeitos
+                    </p>
+                </div>
+                <!--fim dos dados-item 2-->
+                <!--dados-item 3-->
+                <div class="dados-item">
+                    <img src="img/seo.png" alt="">
+                    <p>
+                        <strong>+100</strong><br>
+                        Jornada de Trabalho
+                    </p>
+                </div>
+                <!--fim dos dados-item 3-->
+                <!--dados-item 4-->
+                <div class="dados-item">
+                    <img src="img/layer.png" alt="">
+                    <p>
+                        <strong>+100</strong><br>
+                        Publicidade Paga
+                    </p>
+                </div>
+                <!--fim dos dados-item 4-->
+            </div>
+         </section>
+        <!--fim dos dados-->
+    </header>
+    <!-- Fim do Cabeçalho -->
+   
+    <!-- Rodape -->
+    <footer class="rodape">
+        <div class="link">
+            <a href="https://www.instagram.com/meunome_david/" target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+            <a href="https://www.facebook.com/david.jhow.1/" target="_blank"><i class="fa fa-facebook-official" aria-hidden="true"></i></a>
+            <a href="https://github.com/david-jhow" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a>
+            <a href="https://www.linkedin.com/in/david-jonathan-de-souza-185516133/" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+        </div>
+        <p>Desenvolvido por David Jonathan</p>
+    </footer>
+    <!-- Fim do Rodape -->
+</body>
+
+</html>

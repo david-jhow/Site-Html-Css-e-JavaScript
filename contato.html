@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato</title>
+    <!-- estrelas -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css"
+        integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- estrelas -->
+    <link rel="stylesheet" href="style.css">
+    <script defer src="main.js"></script>
+</head>
+
+<body>
+    <!-- Cabecalho -->
+    <header style="background-image: url(img/background-contacto.jpg);">
+        <!-- conteiner-->
+        <div class="conteiner">
+            <nav>
+                <a href="index.html">
+                    <img class="logo" src="img/david-logo1.png" alt="david-logo">
+                </a>
+                <ul class="menu">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="sobre.html">Sobre</a></li>
+                    <li><a href="Servicos.html">Servicos</a></li>
+                    <li><a href="Contato.html" class="animate-btn">Contatos</a></li>
+                    <!--menu mobile-->
+                    <li class="close-icon" onclick="closeMenu()">
+                        <i class="fa fa-times-circle"></i>
+                    </li>
+                </ul>
+                <div class="menu-icon" onclick="openMenu()">
+                    <i class="fa fa-bars"></i>
+                </div>
+                <!--fim do menu mobile-->
+            </nav>
+            <section class="banner">
+                <div class="banner-text">
+                    <h1>Contatos</h1>
+                
+                    <p>Entre em contato com a nossa equipe e eles
+                        entraram em contato<br> em tempo recorde,
+                        para tirar o seu projeto do papel !
+                    </p>
+                </div>
+            </section>
+        </div>
+        <!-- fim do conteiner -->
+
+    </header>
+    <!-- Fim do Cabeçalho -->
+    <!-- Contato -->
+    <section class="contato">
+        <div class="conteiner">
+            <div class="mapa">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7349.343482610369!2d-45.467659438619336!3d-22.925475416621108!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ccf03b8a301e7f%3A0x63b7679a65e97113!2sCentro%2C%20Pindamonhangaba%20-%20SP!5e0!3m2!1spt-BR!2sbr!4v1730468141730!5m2!1spt-BR!2sbr" width="100%" height="500px" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+            <div class="contato-info">
+                <div class="left-side">
+                    <div>
+                        <i class="fa fa-globe"></i>
+                        <p>Centro, Pindamonhangaba - SP, 12400-490</p>
+                    </div>
+                    <div>
+                        <i class="fa fa-envelope" ></i>
+                        <p>soudavidj@gmail.com</p>
+                    </div>
+                    <div>
+                        <i class="fa fa-whatsapp"></i>
+                        <p>+55 (12) 9 9246-6781</p>
+                    </div>
+                </div>
+                <div class="right-side">
+                    <form action="">
+                        <input type="text" placeholder="Nome" required>
+                        <input type="email" placeholder="E-mail" required>
+                        <input type="text" placeholder="Assunto" required>
+                        <textarea name="message" id="" cols="30" rows="10" placeholder="Sua Mensagem"></textarea>
+                        <button class="btn">Enviar Mensagem</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Fim do Contato -->
+    <!-- Rodape -->
+    <footer class="rodape">
+        <div class="link">
+            <a href="https://www.instagram.com/meunome_david/" target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+            <a href="https://www.facebook.com/david.jhow.1/" target="_blank"><i class="fa fa-facebook-official" aria-hidden="true"></i></a>
+            <a href="https://github.com/david-jhow" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a>
+            <a href="https://www.linkedin.com/in/david-jonathan-de-souza-185516133/" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+        </div>
+        <p>Desenvolvido por David Jonathan</p>
+    </footer>
+    <!-- Fim do Rodape -->
+</body>
+
+</html>

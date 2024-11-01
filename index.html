@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <!-- estrelas -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css"
+        integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- estrelas -->
+    <link rel="stylesheet" href="style.css">
+    <script defer src="main.js"></script>
+</head>
+
+<body >
+    <!-- Cabecalho -->
+    <header style="background-image: url(img/fundo1.png);">
+        <!-- conteiner-->
+        <div class="conteiner">
+            <nav>
+                <a href="index.html">
+                    <img class="logo" src="img/david-logo1.png" alt="david-logo">
+                </a>
+                <ul class="menu">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="sobre.html">Sobre</a></li>
+                    <li><a href="Servicos.html">Servicos</a></li>
+                    <li><a href="Contato.html" class="animate-btn">Contatos</a></li>
+                    <!--menu mobile-->
+                    <li class="close-icon" onclick="closeMenu()">
+                        <i class="fa fa-times-circle"></i>
+                    </li>
+                </ul>
+                <div class="menu-icon" onclick="openMenu()">
+                    <i class="fa fa-bars"></i>
+                </div>
+                    <!--fim do menu mobile-->
+            </nav>            
+            <section class="banner">
+                <div class="banner-text">
+                    <h1>David TEC</h1>
+                    <p>Seja bem vindo ao nosso site</p>
+                    
+                </div>
+
+            </section>
+
+        </div>
+        <!-- fim do conteiner -->
+    </header>
+    <!-- Fim do Cabeçalho -->
+    <!-- faca mais -->
+    <section class="faca-mais">
+        <!-- conteiner -->
+        <div class="conteiner">
+            <div class="faca-mais-text">
+                <h3>Faça mais com a tecnologia</h3>
+                <p>Crie web site, loja virtual, blogs para pequenas, medias e grandes empresas, ter um site responsivo,
+                    e muito mais nunca foi tao facil</p>
+                <a href="contato.html" class="animate-btn">Entrar em contato</a>
+            </div>
+            <div class="faca-mais-img">
+                <img src="img/pc.jpg" alt="faca-mais">
+            </div>
+            <!-- fim do conteiner -->
+        </div>
+    </section>
+    <!-- fim da faca mais 2 -->
+    <!-- faca mais -->
+    <section class="faca-mais">
+        <!-- conteiner -->
+        <div class="conteiner">
+            <div class="faca-mais-img">
+                <img src="img/pc2.jpg" alt="faca-mais">
+            </div>
+            <div class="faca-mais-text">
+                <h3>Ter um site nunca foi tao facil</h3>
+                <p>Agora com a nossa empresa ter um website é algo simplesmente facil, basta entra em contato e iremos
+                    desenvolver o seu website do jeito que voce quiser num tempo recorde, para voce nao perder tempo e
+                    conquistar o mundo</p>
+                <a href="contato.html" class="animate-btn">Entrar em contato</a>
+            </div>
+            <!-- fim do conteiner -->
+        </div>
+    </section>
+    <!-- fim da faca mais 2 -->
+    <!-- Depoimentos -->
+    <section class="depoimentos">
+        <div class="conteiner">
+            <h3>Nossos Depoimentos</h3>
+            <p>Leia o que nossos clientes dizem</p>
+            <div class="depoimentos-card">
+                <!-- card 1-->
+                <div class="card">
+                    <img src="img/rosto1.jpg" alt="Sara Martins de Souza">
+                    <div class="nome-user">Sara Martins de Souza</div>
+                    <p class="depoimento-user">"A equipe de desenvolvimento foi excepcional! Entregaram o projeto antes
+                        do prazo, com qualidade impecável e sempre mantiveram a comunicação clara. Recomendo
+                        fortemente!"</p>
+                    <div class="estrelas">
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star-o" aria-hidden="true"></i>
+                    </div>
+                </div>
+                <!-- fim do card 1-->
+                <!-- card 2-->
+                <div class="card">
+                    <img src="img/rosto2.jpg" alt="Gabriel Oliveira Lima">
+                    <div class="nome-user">Gabriel Oliveira Lima</div>
+                    <p class="depoimento-user">"O serviço de desenvolvimento superou nossas expectativas. Eles
+                        entenderam nossas necessidades e entregaram um produto final que realmente agregou valor ao
+                        nosso negócio. Parabéns pelo excelente trabalho!"</p>
+                    <div class="estrelas">
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star-o" aria-hidden="true"></i>
+                    </div>
+                </div>
+                <!-- fim do card 2-->
+                <!-- card 3-->
+                <div class="card">
+                    <img src="img/rosto3.jpg" alt="Lucas Souza">
+                    <div class="nome-user">Lucas Souza</div>
+                    <p class="depoimento-user">"Fiquei impressionado com o profissionalismo e a expertise da equipe de
+                        dev. Resolveram problemas complexos com facilidade e nos ajudaram a alcançar nossos objetivos de
+                        maneira eficiente. Excelente serviço!"</p>
+                    <div class="estrelas">
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                    </div>
+                </div>
+                <!-- fim do card 3-->
+            </div>
+        </div>
+    </section>
+    <!-- Fim Depoimentos -->
+    <!-- Tecnologias -->
+    <section class="tecnologias">
+        <div class="conteiner">
+            <h3>Tecnologias utilizadas</h3>
+            <p>Conheça as tecnologias que utilizamos para desenvolver nossos sites</p>
+            <div class="tecnologias-img">
+                <img src="img/tecnologias1.jpg" alt="tecnologias">
+            </div>
+        </div>
+    </section>
+    <!-- Fim das tecnologias -->
+    <!-- Segurança -->
+    <section>
+        <div class="seguranca">
+            <img src="img/seguranca.jpg" alt="segurança">
+            <div class="seguranca-text">
+                <h3>Tenha um Web Site seguro</h3>
+                <p>"Nosso serviço de desenvolvimento é sinônimo de segurança: utilizamos as melhores <br> práticas de
+                    proteção e garantimos a integridade dos seus dados em cada etapa do projeto.<br> no nosso
+                    compromisso com a sua segurança digital." &#128187;&#128274;
+                </p>
+                <a href="contato.html" class="animate-btn">Entrar em contato</a>
+            </div>
+        </div>
+    </section>
+    <!-- Fim Segurança -->
+    <!-- Rodape -->
+    <footer class="rodape">
+        <div class="link">
+            <a href="https://www.instagram.com/meunome_david/" target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+            <a href="https://www.facebook.com/david.jhow.1/" target="_blank"><i class="fa fa-facebook-official" aria-hidden="true"></i></a>
+            <a href="https://github.com/david-jhow" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a>
+            <a href="https://www.linkedin.com/in/david-jonathan-de-souza-185516133/" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+        </div>
+        <p>Desenvolvido por David Jonathan</p>
+    </footer>
+    <!-- Fim do Rodape -->
+</body>
+</html>
